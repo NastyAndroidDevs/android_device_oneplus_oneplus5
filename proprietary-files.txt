@@ -1,0 +1,37 @@
+# Audio ACDB
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
+
+#
+# OnePlus 5
+#
+
+# Fingerprint sensor
+etc/permissions/com.fingerprints.extension.xml
+-framework/com.fingerprints.extension.jar
+-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+lib/hw/fingerprint.cheeseburger.so
+lib64/hw/fingerprint.cheeseburger.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
+#
+# OnePlus 5T
+#
+
+# Fingerprint sensor
+lib64/hw/fingerprint.msm8998.gf.so:lib64/hw/gf_fingerprint.msm8998.so
+lib64/hw/fingerprint.dumpling.so
+lib64/libgf_ca.so
+lib64/libgf_hal.so
+lib64/libgoodixfingerprintd_binder.so
+
+# Touchscreen Firmware
+etc/firmware/tp/fw_synaptics_17801.img
